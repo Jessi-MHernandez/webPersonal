@@ -1,10 +1,10 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Inicio{% endblock %}
- 
-   {% block content %} 
-   <h2>Portada</h2>
+{% block title %}Portada{% endblock %}
 
-   {% endblock %}
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
 
- 
+{% block headers %}
+<h1>Jessica M. Hernández</h1>
+<span class="subheading">Ingeniera en Tecnologías de la Información</span>
+{% endblock %}

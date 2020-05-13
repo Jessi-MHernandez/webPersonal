@@ -2,8 +2,19 @@
 
 {% block title %}Contacto{% endblock %}
 
-{% block content %}
-<h2>Contacto</h2>
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
 
-<p>Ponte en contacto conmigo a través de correo electrónico, Facebook, YouTube e Instagram.</p>
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Asesoría</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Sigueme en Youtube, Facebook e Instagram</p>
+        <br>
+        <p><b>Teléfono:</b> +52 246 219 18 43</p>
+    </div>
+</div>
 {% endblock %}
