@@ -8,6 +8,7 @@ class Project(models.Model):
     link = models.URLField(verbose_name="Dirección Web", null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")
+    
 
     class Meta:
         verbose_name = "proyecto"
